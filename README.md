@@ -14,3 +14,5 @@ QCM :
 1- Actvite : php artisan make:model Actvite -m
 2) Edition des fonction up() des fichiers de migration :
 Veulliez voir les fichiers de migration 
+
+3) 
