@@ -16,3 +16,33 @@ QCM :
 Veulliez voir les fichiers de migration <br>
 
 3) 
+
+
+
+4) Les commandes necessaire permettant de lancer les migrations 
+et excuter les seeders :
+1- php artisan migrate 
+2- php artisan make:seeder NomOfTheSeeder (ActviteSeeder,ClubSeeder,EleveSeeder) .
+5) 
+. lancer les seeder : php artisan db:seed 
+. lancer les migration : php artisan migrate 
+. supprimer les tables : php artisan db:wipe  
+
+6) la creation des controller : 
+php artisan make:controller (EleveController,ActvitieController,ClubController) 
+
+
+7) voir le code 
+
+8) voir le code 
+
+9) voire le code 
+
+10) voir le code 
+
+11) voire le code 
+
+12) Voire le code 
+
+
+13) Voire le code 
