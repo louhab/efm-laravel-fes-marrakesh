@@ -23,8 +23,13 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($eleves as $elev)
-                    <tr></tr>
+                    @foreach($eleves as $eleve)
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>    
                     @endforeach
                 </tbody>
                 </table>
