@@ -46,3 +46,10 @@ php artisan make:controller (EleveController,ActvitieController,ClubController)
 
 
 13) Voire le code 
+
+
+bonnus :
+
+le fichier : qui existe dans le chemin app/conf/nginx-site.conf 
+est une fichier de configuration d"un server web qui s"appel nginx pour faire 
+le depoilemet de l"application
