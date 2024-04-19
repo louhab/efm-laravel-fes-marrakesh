@@ -18,7 +18,7 @@ class ClubSeeder extends Seeder
     public function run(): void
     {
         $faker = Faker::create();
-        for ($i = 1; $i < 20; $i++) {
+        for ($i = 1; $i < 5; $i++) {
             Club::create([
                 'nom' => $faker->name,
             ]);

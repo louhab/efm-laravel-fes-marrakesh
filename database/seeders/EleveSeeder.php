@@ -17,7 +17,7 @@ class EleveSeeder extends Seeder
     public function run(): void
     {
         $faker = Faker::create();
-        for ($i = 1; $i < 20; $i++) {
+        for ($i = 1; $i < 3; $i++) {
             Eleve::create([
                 'nom' => $faker->name,
                 'prenom' => $faker->name,

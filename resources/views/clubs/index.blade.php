@@ -8,25 +8,23 @@
 </head>
 <body>
     <div class="row">
-        <h1>
-            hello 
-        </h1>
         <div class="col-md-2"></div>
                 <div class="col-md-8">
+                    <h1>
+                        Liste des Clubs
+                    </h1>
                   <table class="table">
                 <thead>
                     <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nom</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach($clubs as $club)
                     <tr>
-
-
+                        <td>{{$club->id}}</td>
+                        <td>{{$club->nom}}</td>
                     </tr>
                     @endforeach
                 </tbody>

@@ -8,27 +8,30 @@
 </head>
 <body>
     <div class="row">
-        <h1>
-            hello 
-        </h1>
         <div class="col-md-2"></div>
                 <div class="col-md-8">
+                    <h1 class="mx-auto">
+                        Liste des eleves 
+                    </h1>
                   <table class="table">
                 <thead>
                     <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Nom</th>
+                    <th scope="col">Prenom</th>
+                    <th scope="col">Club id</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach($eleves as $eleve)
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>{{$eleve->nom}}</td>
+                        <td>{{$eleve->prenom}}</td>
+                        <td>{{$eleve->club_id}}</td>
+                        <td>
+                            <a href="{{ route('eleves.show', ['elefe' => $eleve]) }}" class="btn btn-sm btn-primary">Modifier</a>
+                            <Button class="btn btn-sm btn-danger">Supprimer</Button>
+                        </td>
+
                     </tr>    
                     @endforeach
                 </tbody>
