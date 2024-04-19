@@ -50,6 +50,8 @@ php artisan make:controller (EleveController,ActvitieController,ClubController)
 
 bonnus :
 
-le fichier : qui existe dans le chemin app/conf/nginx-site.conf 
+--- Le fichier : qui existe dans le chemin app/conf/nginx-site.conf 
 est une fichier de configuration d"un server web qui s"appel nginx pour faire 
-le depoilemet de l"application
+le depoilemet de l"application .
+--- Le fichier Docker est un fichier 
+Ce fichier est un Dockerfile utilisé pour construire une image Docker basée sur l'image richarvey/nginx-php-fpm:1.7.2. Il copie les fichiers du répertoire local dans l'image, définit plusieurs variables d'environnement pour configurer l'environnement de l'application Laravel, et spécifie une commande pour démarrer le conteneur basé sur cette image.
